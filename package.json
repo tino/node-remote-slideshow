@@ -2,7 +2,7 @@
   "author": "Tino de Bruijn <tinodb@gmail.com>",
   "name": "remote-slideshow",
   "description": "Present a slideshow remotely over the web",
-  "version": "0.1",
+  "version": "0.1.0",
   "repository": {
     "url": "https://github.com/tino/node-remote-slideshow.git"
   },
@@ -17,7 +17,7 @@
     "present"
   ],
   "dependencies": {
-    "expressjs": ">=3.4.4",
+    "express": ">=3.4.4",
     "socket.io": ">=0.9.16"
-  },
+  }
 }

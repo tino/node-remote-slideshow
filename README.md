@@ -1,4 +1,2 @@
-node-remote-slideshow
-=====================
-
-A nodejs server for presenting a slideshow remotely over the web
+A simple node/socket.io app to present slides online
+====================================================

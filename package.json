@@ -1,0 +1,23 @@
+{
+  "author": "Tino de Bruijn <tinodb@gmail.com>",
+  "name": "remote-slideshow",
+  "description": "Present a slideshow remotely over the web",
+  "version": "0.1",
+  "repository": {
+    "url": "https://github.com/tino/node-remote-slideshow.git"
+  },
+  "homepage": "https://github.com/tino/node-remote-slideshow",
+  "license" : "MIT",
+  "keywords": [
+    "slideshow",
+    "remote",
+    "socket.io",
+    "powerpoint",
+    "ppt",
+    "present"
+  ],
+  "dependencies": {
+    "expressjs": ">=3.4.4",
+    "socket.io": ">=0.9.16"
+  },
+}

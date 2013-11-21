@@ -33,7 +33,7 @@
       }
       this.socket.on('reload', function(data) {
         console.log('reload');
-        if (!this.presenting) {
+        if (!_this.presenting) {
           return window.location.reload();
         }
       });

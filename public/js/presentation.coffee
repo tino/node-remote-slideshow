@@ -25,7 +25,7 @@ class @Presentation
         else
             @socket.emit 'viewer present'
 
-        @socket.on 'reload', (data) ->
+        @socket.on 'reload', (data) =>
             console.log 'reload'
             if not @presenting
                 window.location.reload()

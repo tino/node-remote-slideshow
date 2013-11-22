@@ -7,7 +7,7 @@
     "url": "https://github.com/tino/node-remote-slideshow.git"
   },
   "homepage": "https://github.com/tino/node-remote-slideshow",
-  "license" : "MIT",
+  "license": "MIT",
   "keywords": [
     "slideshow",
     "remote",
@@ -19,5 +19,9 @@
   "dependencies": {
     "express": ">=3.4.4",
     "socket.io": ">=0.9.16"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.7.0"
   }
 }

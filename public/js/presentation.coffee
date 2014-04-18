@@ -60,6 +60,13 @@ class @Presentation
             @prevSlide()
         @controls.next.bind 'click', =>
             @nextSlide()
+        $(document).keydown (e) =>
+            if e.keyCode is 37
+                @prevSlide()
+                false
+            if e.keyCode is 39
+                @nextSlide()
+                false
 
     slideTo: (slide_num) ->
         if slide_num is @currentSlide then return
